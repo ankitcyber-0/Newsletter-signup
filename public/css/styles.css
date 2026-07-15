@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  text-align: center;
+}
+
+.form-signin img {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 20px;
+}
+
+.form-signin h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.form-signin input[type="text"] {
+  border-radius: 0;
+}
+
+.form-signin input[name="fname"] {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.form-signin input[name="lname"] {
+  margin-top: -1px;
+}
+
+.form-signin input[type="email"] {
+  margin-top: -1px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.btn-primary {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+footer {
+  margin-top: 10px;
+  color: #6c757d;
+  font-size: 14px;
+}
